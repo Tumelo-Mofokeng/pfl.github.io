@@ -1,0 +1,339 @@
+body
+{
+	text-align: center;
+	font-family: all;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+}
+h1
+{
+	color: #e8491d;
+}
+h2
+{
+	color: #f4f4f4;
+}
+.container
+{
+	margin: auto;
+	overflow: hidden;
+}
+header
+{
+	background-color: black;
+	padding: 0;
+}
+#heading img
+{
+	width: 43px;
+	padding-top: 0;
+	float: left;
+}
+#heading h1
+{
+	float: center;
+	padding-top: 0 25px 0 0;
+	font-size: 30px;
+	text-shadow: .05em .05em .05em brown;
+}
+header .highlight, header .current a
+{
+	color: #ffffff;
+	font-weight: bold;
+}
+header a:hover
+{
+	color: #cccccc;
+	font-weight: bold;
+}
+header a
+{
+	color: #e8491d;
+	text-decoration: none;
+	text-shadow: .05em .05em .05em brown;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+header nav
+{
+	height: 15px;
+	padding:0 0px 10px 0px;
+	border-bottom: #e8491d 3px solid;
+	background-color: black;
+}
+header nav li
+{
+	display: inline;
+	float: left;
+	padding: 0 15px 5px 0px;
+}
+#About
+{
+	min-height: 420px;
+	width: 100%;
+	margin: 0;
+	background: url('./pictures/love.jpg');
+	background-position: center;
+	background-attachment: scroll;
+}
+#About p
+{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: monospace;
+}
+#About h2
+{
+	color: #bdc3c7;
+	letter-spacing: 2.5px;
+	font-size: 35px;
+}
+#About h3
+{
+	padding-top: 0;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #bdc3c7  ;
+}
+
+#Requests
+{
+	min-height: 500px;
+	width: 100%;
+	background: url('./pictures/request.jpg');
+	margin: 0;
+	background-attachment: fixed;
+	background-position: center 30px;
+}
+#welcome
+{
+	min-height: 250px;
+	padding: 0px;
+	width: 100%;
+	background: url("pictures/anG1jT.jpg");
+	background-attachment: scroll;
+	border-bottom: purple 10px solid;
+}
+#welcome img
+{
+	width: 95%;
+	min-height: 200px;
+	padding: 0;
+	margin: 0;
+}
+#welcome video
+{
+	width: 90%;
+	min-height: 200px;
+}
+#after
+{
+	min-height: 300px;
+	width: 100%;
+	padding: 0px;
+	background:url('./pictures/Back.jpg');
+	background-attachment: fixed;
+}
+#after img
+{
+	width: 49%;
+	padding-top: 0;
+	min-height: 150px; 
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#after h1
+{
+	padding-top: 15px;
+	font-size: 27px;
+	color: #bdc3c7;
+}
+#after h2
+{
+	color: black;
+	font-size: 15px;
+	font-family: cursive;
+	padding: 0;
+}
+#content
+{
+	min-height: 500px;
+	width: 100%;
+	background: url(./pictures/IMG_20170924_111854.jpg);
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+#content h3
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	text-shadow: .05em .05em .05em brown;
+	padding:0;
+	color: purple;
+}
+#content h2 u
+{
+	color: #bdc3c7;
+	text-shadow: .05em .05em .05em brown;
+	padding:0;
+	font-family: monospace;
+}
+#content p
+{
+	color: black;
+	font-family: monospace;
+	text-shadow: .05em .05em .05em brown;
+	font-size: 15px;
+	padding:0;
+	font-weight: bold;
+}
+#Members
+{
+	width: 100%;
+	min-height: 1600px;
+	padding: 0px;
+	background: url('./pictures/wall.jpg');
+	background-attachment: fixed;
+}
+#Members img
+{
+	width: 70%;
+	height: 60%;
+}
+#Members h2
+{
+	color: #e8491d;
+	padding: 0;
+	margin: 0;
+	font
+	float: center;
+}
+#Members h3
+{
+	padding: 0;
+	margin: 0;
+	color: #e67e22;
+	font-family: monospace;
+}
+.button1
+{
+	height: 45px;
+	background: #e8491d;
+	border: none;
+	width: 245px;
+	font-size: 17px;
+	font-family: sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #bdc3c7;
+	padding-top: 0px;
+	float: center;
+}
+#Requests button
+{
+	float: center;
+}
+
+#Requests input[type="email"]
+{
+	padding-top: 4px;
+	margin: 0;
+	width: 320px;
+	height: 35px;
+}
+#Requests h2
+{
+	color: #e8491d;
+	padding-top: 55px;
+	font-family: monospace;
+	font-size: 30px;
+}
+#Requests p
+{
+	font-family: cursive;
+	font-size: 20px;
+	color: #e8491d;
+	font-weight: bold;
+}
+#media 
+{
+	min-height: 800px;
+	width: 100%;
+	padding-top: 25px;
+	background: url(./pictures/musika.jpg);
+	background-attachment: fixed;
+}
+#give
+{
+	min-height: 500px;
+	width: 100%;
+	padding:0;
+	background: url('./pictures/generous.jpg');
+	background-position: center 0px 0px 20px 0px;
+}
+#media img
+{
+	padding: 0px 0px;
+	width: 70%;
+	height: 60%;
+}
+#media video
+{
+	padding-top: 0;
+	width: 70%;
+	height: 60%;
+}
+#service
+{
+	min-height: 300px;
+	width: 100%;
+	padding-top: 0;
+	background-attachment: fixed;
+	background-position: center;
+	background: url('./pictures/Hands-Worshipping-Church-Background-Still.jpg');
+	background-attachment: fixed;
+}
+#service h2
+{
+	color: black;
+	font-size: 20px;
+	padding: 0;
+	float: center;
+	font-family: monospace;
+}
+#service h1
+{
+	color: brown;
+	float: center;
+	padding: 0;
+	font-size: 35px;
+	font-family: serif;
+}
+#service p
+{
+	color: brown;
+	font-size: 20px;
+	font-style: italic;
+	float: center;
+	padding: 0;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+@media(max-width: 768px)
+{
+   header #heading,#welcome,#after, #content, #About, #Requests, header nav, header nav li
+   {
+   	float: none;
+   	text-align: center;
+   	width: 100%;
+   }
+}
+/*i1bn6O
+	#f4f4f4 grey
+	#35424a dark grey*/ 
+	
